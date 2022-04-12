@@ -1,0 +1,87 @@
+body {
+  background-color: black;
+  color: white;
+  font-family: sans-serif, serif;
+  margin: 4%;
+}
+
+/* bangers-regular - latin */
+@font-face {
+  font-family: 'Bangers';
+  font-style: normal;
+  font-display: swap;
+  font-weight: 400;
+  src: url('/fonts/bangers-v19-latin-regular.eot'); /* IE9 Compat Modes */
+  src: local('Bangers Regular'), local('Bangers-Regular'),
+       url('/fonts/bangers-v19-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('/fonts/bangers-v19-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+       url('/fonts/bangers-v19-latin-regular.woff') format('woff'), /* Modern Browsers */
+       url('/fonts/bangers-v19-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('/fonts/bangers-v19-latin-regular.svg#Bangers') format('svg'); /* Legacy iOS */
+}
+
+main {
+  text-align: justify;
+  margin: 1%;
+}
+
+#title {
+  font-family: 'Bangers';
+  text-align: center;
+  text-decoration: underline;
+}
+
+.subtitle {
+  font-family: 'Bangers';
+  text-align: center;
+}
+
+.container {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.img {
+  padding-top: 10px;
+  display: flex;
+  height: 350px;
+  width: 350px;
+  align-items: center;
+  justify-content: space-around;
+}
+
+img {
+  border: 1px;
+  border-style: none;
+  display: block;
+  max-width: 100%;
+  height: auto;
+  object-fit: cover;
+  padding-bottom: 10px;
+  justify-content: space-around;
+}
+
+figcaption {
+  font-size: 12px;
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+blockquote {
+  padding-left: 20px;
+}
+
+.youtube {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.pfinal{
+  text-align: center;
+}
